@@ -20,13 +20,19 @@ The processed data can be found in the data folder.
 ### Database normalization
 The database is designed by using [QuickDBD](https://www.quickdatabasediagrams.com/) and created in MySQL. 
 A diagram of the schema is shown blow. 
-![schema](https://github.com/dionysos137/sql_powerbi_project/assets/49093201/5d673d72-3ff7-48dd-bf9d-875c45e570ac)
-The SQL script to create the schema is [here](create_database.sql).
+
+<img src="schema.png" width="700" height="400">
+
+The SQL script to create this schema is [here](create_database.sql).
 
 ### Data import and query
 The SQL script to import the data by using the `LOAD DATA INFILE` statement is [here](load_data.sql).
 The SQL script for data query and manipulation is [here](query.sql). Its outputs are used in the Power BI visualization.
 
 ### Power BI dashboard
-The final dashboard can be accessed via this [link](https://app.powerbi.com/view?r=eyJrIjoiYTM2ZGQ0YjgtNWE5NC00YTYzLThmM2EtODEzNDk4MzIxNWMxIiwidCI6IjYwOWZhZWMwLTQwYmYtNDM1YS1hMGU0LTQ4MzQ1YzEyNWM5NSJ9)
+The final dashboard can be accessed via this [link](https://app.powerbi.com/view?r=eyJrIjoiYTM2ZGQ0YjgtNWE5NC00YTYzLThmM2EtODEzNDk4MzIxNWMxIiwidCI6IjYwOWZhZWMwLTQwYmYtNDM1YS1hMGU0LTQ4MzQ1YzEyNWM5NSJ9).
+
+Here is a snapshot.
+
+![](dashboard.PNG)
 
