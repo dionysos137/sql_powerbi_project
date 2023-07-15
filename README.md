@@ -15,8 +15,13 @@ The data set includes a year's worth of sales from a pizzaria located at Ontario
 ## Project details
 ### Data  
 The data is downloaded from [here](https://www.mavenanalytics.io/data-playground?search=pizza) with some modifications like adding random delivery address.
+The processed data can be found in the data folder.
 
 ### Database normalization
-The database is designed by using [QuickDBD](https://www.quickdatabasediagrams.com/). 
+The database is designed by using [QuickDBD](https://www.quickdatabasediagrams.com/) and created in MySQL. 
 A diagram of the schema is shown blow. 
 ![schema](https://github.com/dionysos137/sql_powerbi_project/assets/49093201/5d673d72-3ff7-48dd-bf9d-875c45e570ac)
+The SQL script to create the schema is [here](create_database.sql).
+
+### Data import and query
+
