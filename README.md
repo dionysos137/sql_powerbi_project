@@ -24,4 +24,9 @@ A diagram of the schema is shown blow.
 The SQL script to create the schema is [here](create_database.sql).
 
 ### Data import and query
+The SQL script to import the data by using the `LOAD DATA INFILE` statement is [here](load_data.sql).
+The SQL script for data query and manipulation is [here](query.sql). Its outputs are used in the Power BI visualization.
+
+### Power BI dashboard
+The final dashboard can be accessed via this [link](https://app.powerbi.com/view?r=eyJrIjoiYTM2ZGQ0YjgtNWE5NC00YTYzLThmM2EtODEzNDk4MzIxNWMxIiwidCI6IjYwOWZhZWMwLTQwYmYtNDM1YS1hMGU0LTQ4MzQ1YzEyNWM5NSJ9)
 
